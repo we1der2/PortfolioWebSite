@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+    <script src="./script.js" defer></script>
+    <script src="https://kit.fontawesome.com/7085cf30b5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <span class="material-symbols-outlined"> code </span>
+        </div>
+        <span class="material-symbols-outlined"> light_mode</span>
+        <div class="burger_btn">
+          <span class="material-symbols-outlined"> menu </span>
+        </div>
+          <nav class="navigation">
+            <ul>
+              <li class="nav"><a href="#">About me</a></li>
+              <li class="nav"><a href="#portfolio">Projects</a></li>
+              <li class="nav"><a href="#contact_links">Contacts</a></a></li>
+            </ul>
+          </nav>
+      </header>
+      <main>
+        <section class="about_section">
+        <span id="greeting" class="greeting"></span>
+        <div class="stack">
+            <h3>
+                My Stack of technologies: 
+            </h3>
+            <ul class="stack_list">
+                <li><span class='stack_logo'><i class="fab fa-html5 fa-lg"></i></span> HTML</li>
+                <li><span class='stack_logo'><i class="fa-brands fa-css3-alt  fa-lg"></i></i></span> CSS</li>
+                <li><span class='stack_logo'><i class="fab fa-node-js  fa-lg"> </i></span> JavaScript</li>
+                <li><span class='stack_logo'><i class="fa-solid fa-t  fa-xs"></i><i class="fa-solid fa-s fa-xs"></i></span> TypeScript</li>
+                <li><span class='stack_logo'><i class="fa-brands fa-react  fa-lg"></i></i></span> React</li>
+                <li><span class='stack_logo'><i class="fa-solid fa-t fa-xs"></i><i class="fa-solid fa-w fa-xs"></i></span> TailWind</li>
+            </ul>
+        </div>
+        </section>
+        <section class="portfolio_section" id="portfolio">
+        <h2>These are some of my projects</h2>
+        <article class="projects_grid">
+            
+            <figure>
+                <img src="" alt="seahorseGame">
+                <figcaption>
+                    <h3 class="project project-title">
+                        <a href="https://github.com/we1der2/seahorseGame" target="_blank">
+                        <span class="code"><</span>
+                        Seahorse Battle Game
+                        <span class="code">/></span>
+                    </a>
+                    </h3>
+                    <p>
+                        The battle of the seahorses is written using vanilla JavaScript in object-oriented programming style and 2D canvas graphics.   
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="chessGame">
+                <figcaption>
+                    <h3 class="project project-title">
+                        <a href="https://github.com/we1der2/ReactTSCHESS" target="_blank">
+                        <span class="code"><</span>
+                        Chess Game
+                        <span class="code">/></span>
+                    </a>
+                    </h3>
+                    <p>
+                        Classic chess game implemented in React using TypeScript.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="ticTacToe">
+                <figcaption>
+                    <h3 class="project project-title">
+                        <a href="https://github.com/we1der2/seahorseGame" target="_blank">
+                        <span class="code"><</span>
+                        TicTacToe Game.
+                        <span class="code">/></span>
+                    </a>
+                    </h3>
+                    <p>
+                        TicTacToe implemented in React using TypeScript.
+                    </p>
+                </figcaption>
+            </figure>
+            <a href="https://github.com/we1der2" class="btn btn_showAll" target="_blank">Show all
+                <i class="fas fa-chevron-right"></i></a>
+            
+        </article>
+        </section>
+        <section class="contact_section">
+        <div class="contact_section_header">
+            <h2>Let's work together...</h2>
+        </div>   
+        <div class="contact_links" id="contact_links">
+        <a href="https://vk.com/id73849396" target="_blank" class="btn contact_details"><i class="fab fa-vk"></i> VK</a>    
+        <a href="https://github.com/we1der2" target="_blank" class="btn contact_details"><i class="fab fa-github"></i> GitHub</a>
+        <a href="mailto: zakhar.syrovatskii2021@gmail.com" target="_blank" class="btn contact_details"><i class="fas fa-at"></i> Send a mail</a>
+        <a href="https://t.me/squ0nch" target="_blank" class="btn contact_details"><i class="fab fa-telegram"></i> Chat me</a>
+        <a href="tel:7950-011-21-79" class="btn contact_details"><i class="fas fa-mobile-alt"></i> Call me</a>
+        </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
